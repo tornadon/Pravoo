@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pravoo</name>
+    </assembly>
+    <members>
+        <member name="T:Pravoo.Program">
+            <summary>
+            Основной класс программы
+            </summary>
+        </member>
+        <member name="F:Pravoo.Program.latinToCyrillicDictionary">
+            <summary>
+            Словарь похожих по начертанию на русские буквы английских букв
+            </summary>
+        </member>
+        <member name="F:Pravoo.Program.digitToCyrillicDictionary">
+            <summary>
+            Словарь похожих по начертанию на русские буквы цифр
+            </summary>
+        </member>
+        <member name="F:Pravoo.Program.text">
+            <summary>
+            Переменная для хранения считываемого текста
+            </summary>
+        </member>
+        <member name="M:Pravoo.Program.Main(System.String[])">
+            <summary>
+            Главная функция программы
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Pravoo.Program.Replacer(System.String)">
+            <summary>
+            Функция замены похожих по начертанию на русские буквы английских букв и цифр в тексте
+            </summary>
+            <param name="text">Текст для замены</param>
+            <returns>Текст с выполненной заменой</returns>
+        </member>
+        <member name="M:Pravoo.Program.rusReplace(System.String)">
+            <summary>
+            Функция замены похожих по начертанию на русские буквы английских букв и цифр в слове
+            </summary>
+            <param name="word">Слово для замены</param>
+            <returns>Замененное слово</returns>
+        </member>
+        <member name="M:Pravoo.Program.textNormalizer(System.String)">
+            <summary>
+            Функция удаления символов и приведения текста к нижнему регистру
+            </summary>
+            <param name="text">Текст для преобразования</param>
+            <returns>Преобразованный текст</returns>
+        </member>
+    </members>
+</doc>
